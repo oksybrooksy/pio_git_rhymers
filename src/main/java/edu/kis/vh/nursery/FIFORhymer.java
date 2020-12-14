@@ -13,9 +13,11 @@ public class FIFORhymer extends defaultCountingOutRhymer {
 		int ret = temp.countOut();
 		
 		while (!temp.callCheck())
-			
-		countIn(temp.countOut());
-		
+		{
+			countIn(temp.countOut());
+		}
+
 		return ret;
 	}
 }
+//kombinacjaq klawiszy alt + -> i alt + <- przenosi nas między otwartymi plikami
