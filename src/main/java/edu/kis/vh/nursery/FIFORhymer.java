@@ -1,5 +1,8 @@
 package edu.kis.vh.nursery;
 
+/**
+ * The type Fifo rhymer.
+ */
 public class FIFORhymer extends DefaultCountingOutRhymer {
 
 	private final DefaultCountingOutRhymer temp = new DefaultCountingOutRhymer();
